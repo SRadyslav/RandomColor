@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+.btn {
+    background: none;
+    color: black;
+    font-size: 1rem;
+
+    outline: none;
+    padding: 15px 60px;
+    margin: 20px auto;
+    max-width: 200px;
+    display: block;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.container {
+    width: calc();
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 20%;
+    height: 150px;
+    background: red;
+    border: 2px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
